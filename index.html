@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Carlos Daniel - Desenvolvedor em formação">
+    <title>Carlos Daniel | Portfólio</title>
+
+    <!-- Fonte do Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Ícones FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Coutinho<span>.Dev</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact" class="btn-contact">Contato</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- SEÇÃO HERO (APRESENTAÇÃO) -->
+    <section id="home" class="hero">
+        <!-- Fundo Animado -->
+        <div class="hero-bg">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="greeting">Olá, eu sou</p>
+                
+                <!-- NOME COM EFEITO 3D -->
+                <div class="name-3d-container">
+                    <h1 class="main-title">
+                        <span class="name-layer name-base">Carlos</span>
+                        <span class="name-layer name-highlight">Daniel</span>
+                    </h1>
+                    <!-- Sombra Espelhada -->
+                    <div class="name-shadow">
+                        <span class="name-layer name-base">Carlos</span>
+                        <span class="name-layer name-highlight">Daniel</span>
+                    </div>
+                </div>
+                
+                <h2 class="role-title">
+                    <span class="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="description">
+                    Transformo ideias complexas em experiências digitais simples e eficientes. 
+                    Especialista em criar soluções web modernas com foco em performance e design.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-code"></i> Ver Projetos
+                    </a>
+                    <a href="#contact" class="btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contratar
+                    </a>
+                </div>
+
+                <!-- Redes Sociais Rápidas -->
+                <div class="social-links">
+                    <a href="https://github.com/Danielgit06" target="_blank" class="social-icon" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/carlos-daniel-coutinho-ti-461085276" target="_blank" class="social-icon" title="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://wa.me/5561995640753" target="_blank" class="social-icon" title="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARTÃO 3D COM FOTO (HERO) -->
+            <div class="hero-image" id="tilt-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <img src="imagens/1773217501518-fa542754-8eeb-4e21-8a29-cacf50edad44.png" alt="Carlos Daniel" class="profile-img">
+                    <div class="card-info">
+                        <h3>Dev em Formação</h3>
+                        <p>ADS - 20 Anos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <h3>Desenvolvedor em Formação</h3>
+                    <p>
+                        Profissional comprometido e orientado a resultados, com sólida experiência em atendimento ao cliente, gestão de estoque e logística operacional. Atualmente cursando <strong>Análise e Desenvolvimento de Sistemas</strong>, onde tenho desenvolvido competências técnicas em <strong>Java, Python e JavaScript</strong>, com foco em qualidade de software e testes automatizados.
+                    </p>
+                    <p>
+                        Diferenciais:
+                    </p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check-circle"></i> Facilidade de aprendizado e adaptação rápida</li>
+                        <li><i class="fas fa-check-circle"></i> Pontualidade e responsabilidade</li>
+                        <li><i class="fas fa-check-circle"></i> Capacidade de trabalhar em ambientes dinâmicos</li>
+                        <li><i class="fas fa-check-circle"></i> Atenção aos detalhes e organização</li>
+                    </ul>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>20</h4>
+                            <p>Anos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>3+</h4>
+                            <p>Projetos</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100%</h4>
+                            <p>Compromisso</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FOTO COM EFEITO 3D NA SEÇÃO SOBRE -->
+                <div class="about-image" id="about-tilt-card">
+                    <div class="card-glow"></div>
+                    <div class="card-content">
+                        <img src="imagens/1773225372937-f9d8a491-4da7-4423-812a-5da85572f18b (6).png" alt="Carlos Daniel" class="about-photo">
+                        <div class="card-info">
+                            <h3>Dev em Formação</h3>
+                            <p>ADS - 20 Anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO SKILLS -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">HTML5</div>
+                <div class="skill-tag">CSS3</div>
+                <div class="skill-tag">JavaScript</div>
+                <div class="skill-tag">React.js</div>
+                <div class="skill-tag">Node.js</div>
+                <div class="skill-tag">Git & GitHub</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">UI/UX Design</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PROJETOS -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos Recentes</h2>
+            <div class="projects-grid">
+                
+                <!-- Projeto 1 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-laptop-code fa-3x"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Site Institucional</h3>
+                        <p>Desenvolvimento de uma landing page responsiva para uma empresa local, focada em conversão.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 2 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-mobile-alt fa-3x"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>App de Tarefas</h3>
+                        <p>Aplicação web para gestão de tarefas diárias, utilizando React e LocalStorage.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projeto 3 -->
+                <article class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-database fa-3x"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de Gestão</h3>
+                        <p>Backend para controle de estoque utilizando Node.js e banco de dados SQL.</p>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO CONTATO -->
+    <section id="contact" class="contact">
+        <div class="container contact-container">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p>Estou disponível para oportunidades de estágio e projetos freelance.</p>
+            
+            <div class="contact-info">
+                <!-- LINKEDIN -->
+                <a href="https://www.linkedin.com/in/carlos-daniel-coutinho-ti-461085276" target="_blank" class="social-btn" title="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                
+                <!-- GITHUB -->
+                <a href="https://github.com/Danielgit06" target="_blank" class="social-btn" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                
+                <!-- WHATSAPP -->
+                <a href="https://wa.me/5561995640753" target="_blank" class="social-btn" title="WhatsApp">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                
+                <!-- EMAIL -->
+                <a href="mailto:coutinhoulta1@gmail.com" class="social-btn" title="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>&copy; 2024 Carlos Daniel. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Arquivo JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
